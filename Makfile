@@ -1,0 +1,8 @@
+default:
+	make -C maxtext all
+
+clean:
+	make -C Dependencies/OpenXDS_Core/0.x       clean
+	make -C Dependencies/OpenXDS/0.x            clean     
+	make -C Dependencies/MaxText/1.0/libmaxtext clean
+	make -C maxtext                             clean

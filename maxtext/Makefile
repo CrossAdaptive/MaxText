@@ -18,6 +18,9 @@ copy:
 	mkdir -p bin/$(OSNAME)-$(CPU)
 	cp bin/maxtext bin/$(OSNAME)-$(CPU)/maxtext 
 	cp bin/maxtext bin/$(OSNAME)-$(CPU)/max2html
+
+clean:
+	rm -rf bin
  
 #       
 #       libexec dependencies
