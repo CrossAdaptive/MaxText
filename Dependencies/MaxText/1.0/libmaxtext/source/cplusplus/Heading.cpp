@@ -112,7 +112,7 @@ Heading::printTex( PrintWriter& p ) const
 	}
 
 	int context_level = this->level;
-	if ( this->documentType->contentEquals( "book" ) || this->documentType->contentEquals( "report" ) )
+	if ( this->documentType->contentEquals( "book" ) || this->documentType->contentEquals( "report" ) || this->documentType->contentEquals( "scrreprt" ) )
 	{
 		context_level--;
 	}
